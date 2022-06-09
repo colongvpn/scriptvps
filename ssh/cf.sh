@@ -25,11 +25,11 @@ exit 0
 fi
 clear
 apt install jq curl -y
-DOMAIN=colongvpn.me
+DOMAIN=vip-server.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.colongvpn.me
-CF_ID=colongvpnstore@gmail.com
-CF_KEY=ccbe3a54f7fe156b9b9bda56d23b0228c15a3
+SUB_DOMAIN=${sub}.vip-server.xyz
+CF_ID=paoandest@gmail.com
+CF_KEY=1d158d0efc4eef787222cefff0b6d20981462
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
