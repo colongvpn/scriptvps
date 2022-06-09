@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/LamVpn
+# My Telegram : https://t.me/colongvpn
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -14,17 +14,17 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/LamVpn/perizinan/main/ipvps.txt | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/colongvpn/perizinan/main/ipvps.txt | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/LamVpn"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/colongvpn"
 exit 0
 fi
 clear
-source /var/lib/lamvpnstore/ipvps.conf
+source /var/lib/colongvpnstore/ipvps.conf
 if [[ "$IP" = "" ]]; then
 domain=$(cat /etc/xray/domain)
 else
@@ -47,9 +47,9 @@ read -p "Expired (Days) : " masaaktif
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 sed -i '/#xray-v2ray-tls$/a\### '"$user $exp"'\
-},{"id": "'""$uuid""'","alterId": '"32"',"email": "'""$user""'"' /etc/xray/v2ray-tls.json
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/v2ray-tls.json
 sed -i '/#xray-v2ray-nontls$/a\### '"$user $exp"'\
-},{"id": "'""$uuid""'","alterId": '"32"',"email": "'""$user""'"' /etc/xray/v2ray-nontls.json
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/v2ray-nontls.json
 cat>/etc/xray/v2ray-$user-tls.json<<EOF
       {
       "v": "2",
@@ -57,7 +57,7 @@ cat>/etc/xray/v2ray-$user-tls.json<<EOF
       "add": "${domain}",
       "port": "${tls}",
       "id": "${uuid}",
-      "aid": "32",
+      "aid": "0",
       "net": "ws",
       "path": "/v2ray/",
       "type": "none",
@@ -72,7 +72,7 @@ cat>/etc/xray/v2ray-$user-nontls.json<<EOF
       "add": "${domain}",
       "port": "${nontls}",
       "id": "${uuid}",
-      "aid": "32",
+      "aid": "0",
       "net": "ws",
       "path": "/v2ray/",
       "type": "none",
@@ -96,7 +96,7 @@ echo -e "Address     : ${domain}"
 echo -e "Port TLS    : ${tls}"
 echo -e "Port No TLS : ${nontls}"
 echo -e "User ID     : ${uuid}"
-echo -e "Alter ID    : 32"
+echo -e "Alter ID    : 0"
 echo -e "Security    : auto"
 echo -e "Network     : ws"
 echo -e "Path        : /v2ray/"
@@ -107,4 +107,4 @@ echo -e "Link TLS    : ${xrayv2ray1}"
 echo -e "========================="
 echo -e "Link No TLS : ${xrayv2ray2}"
 echo -e "========================="
-echo -e "Script By LamVpn"
+echo -e "Script By colongvpn"
