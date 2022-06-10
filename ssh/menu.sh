@@ -109,7 +109,7 @@ echo -e "$yy 60$y.Info Script Auto Install"
 echo -e "$yy 61$y.status Running Service"
 echo -e "$y-------------------------------------------------------------$wh"
 echo -e ""
-read -p "Select From Options [ 1 - 60 ] : " menu
+read -p "Select From Options [ 1 - 61 ] : " menu
 echo -e ""
 case $menu in
 1)
