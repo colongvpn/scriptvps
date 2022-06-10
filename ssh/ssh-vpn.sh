@@ -439,6 +439,7 @@ wget -O portv2ray "https://${colongvpn}/portv2ray.sh"
 wget -O portvless "https://${colongvpn}/portvless.sh"
 wget -O wbmn "https://${colongvpn}/webmin.sh"
 wget -O xp "https://${colongvpn}/xp.sh"
+wget -O running "https://${colongvpn}/running.sh"
 wget -O swapkvm "https://${colongvpn}/swapkvm.sh"
 wget -O addv2ray "https://${colongvpnn}/addv2ray.sh"
 wget -O addvless "https://${colongvpnn}/addvless.sh"
@@ -503,6 +504,7 @@ chmod +x addtrgo
 chmod +x deltrgo
 chmod +x renewtrgo
 chmod +x cektrgo
+chmod +x running
 echo "0 5 * * * root clearlog && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 # remove unnecessary files
