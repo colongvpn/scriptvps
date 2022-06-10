@@ -5,138 +5,170 @@ y="\033[0;1;37m"
 yy="\033[0;1;32m"
 yl="\033[0;1;33m"
 wh="\033[0m"
+color1='\e[031;1m'
+color2='\e[34;1m'
+color3='\e[0m'
+DF='\e[39m'
+Bold='\e[1m'
+Blink='\e[5m'
+yell='\e[33m'
+red='\e[1;31m'
+green='\e[1;32m'
+blue='\e[1;34m'
+PURPLE='\e[1;95m'
+CYAN='\e[1;36m'
+Lred='\e[1;91m'
+Lgreen='\e[92m'
+Lyellow='\e[93m'
+white='\e[1;37m'
+NC='\e[0m'
 
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$y             Telegram : https://t.me/colongvpn $wh"
-echo -e "$y           Premium Auto Script By Colonger Vpn Store $wh"
-echo -e "$y-------------------------------------------------------------$wh"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "$y          Telegram : https://t.me/colongvpn $wh"
+echo -e "$y        Premium Auto Script By Colonger Vpn Store $wh"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
-echo -e "$y SSH & OpenVPN $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 1$y.Create SSH & OpenVPN Account"
-echo -e "$yy 2$y.Generate SSH & OpenVPN Trial Account"
-echo -e "$yy 3$y.Extending SSH & OpenVPN Account Active Life"
-echo -e "$yy 4$y.Check User Login SSH & OpenVPN"
-echo -e "$yy 5$y.Daftar Member SSH & OpenVPN"
-echo -e "$yy 6$y.Delete SSH & OpenVpn Account"
-echo -e "$yy 7$y.Delete User Expired SSH & OpenVPN"
-echo -e "$yy 8$y.Set up Autokill SSH"
-echo -e "$yy 9$y.Displays Users Who Do Multi Login SSH"
-echo -e "$yy 10$y.Restart All Service"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                ⇱ SSH & OpenVPN ⇲                \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}01${NC}]${color1} •$white Create SSH & OpenVPN Account"
+echo -e "   [${green}02${NC}]${color1} •$white Generate SSH & OpenVPN Trial Account"
+echo -e "   [${green}03${NC}]${color1} •$white Extending SSH & OpenVPN Account Active Life"
+echo -e "   [${green}04${NC}]${color1} •$white Check User Login SSH & OpenVPN"
+echo -e "   [${green}05${NC}]${color1} •$white Daftar Member SSH & OpenVPN"
+echo -e "   [${green}06${NC}]${color1} •$white Delete SSH & OpenVpn Account"
+echo -e "   [${green}07${NC}]${color1} •$white Delete User Expired SSH & OpenVPN"
+echo -e "   [${green}08${NC}]${color1} •$white Set up Autokill SSH"
+echo -e "   [${green}09${NC}]${color1} •$white Displays Users Who Do Multi Login SSH"
+echo -e "   [${green}10${NC}]${color1} •$white Restart All Service"
 echo -e ""
-echo -e "$y L2TP $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 11$y.Create Account L2TP"
-echo -e "$yy 12$y.Delete Account L2TP"
-echo -e "$yy 13$y.Extending Account L2TP Active Life"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                     ⇱ L2TP ⇲                    \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}11${NC}]${color1} •$white Create Account L2TP"
+echo -e "   [${green}12${NC}]${color1} •$white Delete Account L2TP"
+echo -e "   [${green}13${NC}]${color1} •$white Extending Account L2TP Active Life"
 echo -e ""
-echo -e "$y PPTP $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 14$y.Create Account PPTP"
-echo -e "$yy 15$y.Delete Account PPTP"
-echo -e "$yy 16$y.Extending Account PPTP Active Life"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ PPTP ⇲                       \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}14${NC}]${color1} •$white Create Account PPTP"
+echo -e "   [${green}15${NC}]${color1} •$white Delete Account PPTP"
+echo -e "   [${green}16${NC}]${color1} •$white Extending Account PPTP Active Life"
 echo -e ""
-echo -e "$y SSTP $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 17$y.Create Account SSTP"
-echo -e "$yy 18$y.Delete Account SSTP"
-echo -e "$yy 19$y.Extending Account SSTP Active Life"
-echo -e "$yy 20$y.Check User Login SSTP"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ SSTP ⇲                       \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}17${NC}]${color1} •$white Create Account SSTP"
+echo -e "   [${green}18${NC}]${color1} •$white Delete Account SSTP"
+echo -e "   [${green}19${NC}]${color1} •$white Extending Account SSTP Active Life"
+echo -e "   [${green}20${NC}]${color1} •$white Check User Login SSTP"
 echo -e ""
-echo -e "$y WIREGUARD $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 21$y.Create Account Wireguard"
-echo -e "$yy 22$y.Delete Account Wireguard"
-echo -e "$yy 23$y.Extending Account Wireguard Active Life"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ WIREGUARD ⇲                  \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}21${NC}]${color1} •$white Create Account Wireguard"
+echo -e "   [${green}22${NC}]${color1} •$white Delete Account Wireguard"
+echo -e "   [${green}23${NC}]${color1} •$white Extending Account Wireguard Active Life"
 echo -e ""
-echo -e "$y SHADOWSOCKS $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 24$y.Create Account Shadowsocks"
-echo -e "$yy 25$y.Delete Account Shadowsocks"
-echo -e "$yy 26$y.Extending Account Shadowsocks Active Life"
-echo -e "$yy 27$y.Check User Login Shadowsocks"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ SHADOWSOCKS ⇲                \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}24${NC}]${color1} •$white Create Account Shadowsocks"
+echo -e "   [${green}25${NC}]${color1} •$white Delete Account Shadowsocks"
+echo -e "   [${green}26${NC}]${color1} •$white Extending Account Shadowsocks Active Life"
+echo -e "   [${green}27${NC}]${color1} •$white Check User Login Shadowsocks"
 echo -e ""
-echo -e "$y SHADOWSOCKSR $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 28$y.Create Account SSR"
-echo -e "$yy 29$y.Delete Account SSR"
-echo -e "$yy 30$y.Extending Account SSR Active Life"
-echo -e "$yy 31$y.Show Other SSR Menu"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ SHADOWSOCKSR ⇲               \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}28${NC}]${color1} •$white Create Account SSR"
+echo -e "   [${green}29${NC}]${color1} •$white Delete Account SSR"
+echo -e "   [${green}30${NC}]${color1} •$white Extending Account SSR Active Life"
+echo -e "   [${green}31${NC}]${color1} •$white Show Other SSR Menu"
 echo -e ""
-echo -e "$y XRAYS / VMESS $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 32$y.Create Account XRAYS Vmess Websocket"
-echo -e "$yy 33$y.Delete Account XRAYS Vmess Websocket"
-echo -e "$yy 34$y.Extending Account XRAYS Vmess Active Life"
-echo -e "$yy 35$y.Check User Login XRAYS Vmess"
-echo -e "$yy 36$y.Renew Certificate XRAYS Account"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ XRAY / VMESS ⇲               \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}32${NC}]${color1} •$white Create Account XRAYS Vmess Websocket"
+echo -e "   [${green}33${NC}]${color1} •$white Delete Account XRAYS Vmess Websocket"
+echo -e "   [${green}34${NC}]${color1} •$white Extending Account XRAYS Vmess Active Life"
+echo -e "   [${green}35${NC}]${color1} •$white Check User Login XRAYS Vmess"
+echo -e "   [${green}36${NC}]${color1} •$white Renew Certificate XRAYS Account"
 echo -e ""
-echo -e "$y XRAYS / VLESS $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 37$y.Create Account XRAYS Vless Websocket"
-echo -e "$yy 38$y.Delete Account XRAYS Vless Websocket"
-echo -e "$yy 39$y.Extending Account XRAYS Vless Active Life"
-echo -e "$yy 40$y.Check User Login XRAYS Vless"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ XRAY / VLESS ⇲               \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}37${NC}]${color1} •$white Create Account XRAYS Vless Websocket"
+echo -e "   [${green}38${NC}]${color1} •$white Delete Account XRAYS Vless Websocket"
+echo -e "   [${green}39${NC}]${color1} •$white Extending Account XRAYS Vless Active Life"
+echo -e "   [${green}40${NC}]${color1} •$white Check User Login XRAYS Vless"
 echo -e ""
-echo -e "$y XRAYS / TROJAN $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 41$y.Create Account XRAYS Trojan"
-echo -e "$yy 42$y.Delete Account XRAYS Trojan"
-echo -e "$yy 43$y.Extending Account XRAYS Trojan Active Life"
-echo -e "$yy 44$y.Check User Login XRAYS Trojan"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ XRAY / TROJAN ⇲              \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}41${NC}]${color1} •$white Create Account XRAYS Trojan"
+echo -e "   [${green}42${NC}]${color1} •$white Delete Account XRAYS Trojan"
+echo -e "   [${green}43${NC}]${color1} •$white Extending Account XRAYS Trojan Active Life"
+echo -e "   [${green}44${NC}]${color1} •$white Check User Login XRAYS Trojan"
 echo -e ""
-echo -e "$y TROJAN GO $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 45$y.Create Account Trojan Go"
-echo -e "$yy 46$y.Delete Account Trojan Go"
-echo -e "$yy 47$y.Extending Account Trojan Go Active Life"
-echo -e "$yy 48$y.Check User Login Trojan Go"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                  ⇱ TROJAN GO ⇲                  \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}45${NC}]${color1} •$white Create Account Trojan Go"
+echo -e "   [${green}46${NC}]${color1} •$white Delete Account Trojan Go"
+echo -e "   [${green}47${NC}]${color1} •$white Extending Account Trojan Go Active Life"
+echo -e "   [${green}48${NC}]${color1} •$white Check User Login Trojan Go"
 echo ""
-echo -e "$y SYSTEM $wh"
-echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 49$y.Add Or Change Subdomain Host For VPS"
-echo -e "$yy 50$y.Change Port Of Some Service"
-echo -e "$yy 51$y.Autobackup Data VPS"
-echo -e "$yy 52$y.Backup Data VPS"
-echo -e "$yy 53$y.Restore Data VPS"
-echo -e "$yy 54$y.Webmin Menu"
-echo -e "$yy 55$y.Limit Bandwith Speed Server"
-echo -e "$yy 56$y.Check Usage of VPS Ram"
-echo -e "$yy 57$y.Reboot VPS"
-echo -e "$yy 58$y.Speedtest VPS"
-echo -e "$yy 59$y.Displaying System Information"
-echo -e "$yy 60$y.Info Script Auto Install"
-echo -e "$yy 61$y.status Running Service"
-echo -e "$y-------------------------------------------------------------$wh"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   \E[41;1;39m                     ⇱ SYSTEM ⇲                  \E[0m"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+echo -e "   [${green}49${NC}]${color1} •$white Add Or Change Subdomain Host For VPS"
+echo -e "   [${green}50${NC}]${color1} •$white Change Port Of Some Service"
+echo -e "   [${green}51${NC}]${color1} •$white Autobackup Data VPS"
+echo -e "   [${green}52${NC}]${color1} •$white Backup Data VPS"
+echo -e "   [${green}53${NC}]${color1} •$white Restore Data VPS"
+echo -e "   [${green}54${NC}]${color1} •$white Webmin Menu"
+echo -e "   [${green}55${NC}]${color1} •$white Limit Bandwith Speed Server"
+echo -e "   [${green}56${NC}]${color1} •$white Check Usage of VPS Ram"
+echo -e "   [${green}57${NC}]${color1} •$white Reboot VPS"
+echo -e "   [${green}58${NC}]${color1} •$white Speedtest VPS"
+echo -e "   [${green}59${NC}]${color1} •$white Displaying System Information"
+echo -e "   [${green}60${NC}]${color1} •$white Info Script Auto Install"
+echo -e "   [${green}61${NC}]${color1} •$white Status Running Service"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   [${green}00${NC}]${color1} •$white BACK TO EXIT MENU \033[1;32m<\033[1;33m<\033[1;31m<\033[1;31m $NC"
+echo -e "  $CYAN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $NC"
 echo -e ""
-read -p "Select From Options [ 1 - 61 ] : " menu
+    read -p "Select From Options [ 1 - 61 ] : " menu
+echo -e ""
 echo -e ""
 case $menu in
-1)
+1 | 01)
 addssh
 ;;
-2)
+2 | 02)
 trialssh
 ;;
-3)
+3 | 03)
 renewssh
 ;;
-4)
+4 | 04)
 cekssh
 ;;
-5)
+5 | 05)
 member
 ;;
-6)
+6 | 06)
 delssh
 ;;
-7)
+7 | 07)
 delexp
 ;;
-8)
+8 | 08)
 autokill
 ;;
-9)
+9 | 09)
 ceklim
 ;;
 10)
@@ -295,8 +327,10 @@ about
 61)
 running
 ;;
+0 | 00)
+exit
+;;
 *)
-clear
 menu
 ;;
 esac
