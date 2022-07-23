@@ -25,9 +25,9 @@ exit 0
 fi
 clear
 apt install jq curl -y
-DOMAIN=vip-server.xyz
+DOMAIN=vpnkuy.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.vip-server.xyz
+SUB_DOMAIN=${sub}.vpnkuy.me
 CF_ID=paoandest@gmail.com
 CF_KEY=1d158d0efc4eef787222cefff0b6d20981462
 set -euo pipefail
