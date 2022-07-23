@@ -458,6 +458,7 @@ wget -O addtrgo "https://${colongvpnnn}/addtrgo.sh"
 wget -O deltrgo "https://${colongvpnnn}/deltrgo.sh"
 wget -O renewtrgo "https://${colongvpnnn}/renewtrgo.sh"
 wget -O cektrgo "https://${colongvpnnn}/cektrgo.sh"
+wget -O /usr/bin/running https://raw.githubusercontent.com/colongvpn/scriptvps/main/ssh/running.sh && chmod +x /usr/bin/running && cd /usr/bin && apt install -y dos2unix && dos2unix running
 chmod +x addhost
 chmod +x menu
 chmod +x addssh
