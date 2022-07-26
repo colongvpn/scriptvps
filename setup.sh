@@ -7,7 +7,7 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
 		exit 1
 fi
-# My Telegram : https://t.me/colongvpn
+# My Telegram : https://t.me/anabilkhoir
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -49,7 +49,7 @@ echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/colongvpn"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/anabilkhoir"
 exit 0
 fi
 rm -f setup.sh
@@ -92,7 +92,7 @@ rm -f /root/ohp.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
-Documentation=https://t.me/colongvpn
+Documentation=https://t.me/anabilkhoir
 
 [Service]
 Type=oneshot
@@ -111,7 +111,7 @@ echo "2.9" > /home/ver
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-colongvpn Project-===========================" | tee -a log-install.txt
+echo "=================================-ShamTech Project-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -144,7 +144,7 @@ echo "   - OHP OpenVPN             : 8383"  | tee -a log-install.txt
 echo "   - Tr Go                   : 2053"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
-echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Kuching (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
@@ -159,12 +159,12 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Horas Marolop Amsal Siregar"  | tee -a log-install.txt
-echo "   - Recode                  : colongvpn" | tee -a log-install.txt
-echo "   - Telegram                : T.me/colongvpn"  | tee -a log-install.txt
+echo "   - Recode                  : ShamTech" | tee -a log-install.txt
+echo "   - Telegram                : T.me/anabilkhoir"  | tee -a log-install.txt
 echo "   - Instagram               : ~"  | tee -a log-install.txt
 echo "   - Whatsapp                : ~"  | tee -a log-install.txt
 echo "   - Facebook                : ~" | tee -a log-install.txt
-echo "----------------------Script Created By colongvpn Project----------------------" | tee -a log-install.txt
+echo "----------------------Script Created By ShamTech Project----------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
