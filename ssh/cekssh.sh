@@ -85,6 +85,6 @@ echo "----------------------------------------------";
         cat /tmp/vpn-login-udp.txt
 fi
 echo "----------------------------------------------";
-echo "Script By colongvpn"
+echo "Script By ShamTech"
 echo "";
 
